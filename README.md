@@ -1,33 +1,27 @@
 # log4j-payload-generator
-log4j-paylaod generator : A generic payload generator for Apache log4j RCE CVE-2021-44228
+log4j-paylaod generator : A generic payload generator for Apache log4j RCE CVE-2021-44228.
 
-# Clone the payload-generator repo:
 
-$sudo git clone https://github.com/yesspider-hacker/log4j-payload-generator.git
+## Deployment
 
-# Run Python file
+To deploy this project run
 
-$cd log4j-payload-generator/ 
-$cd python3 log4j_payload_generater.py
+```bash
+  sudo git clone https://github.com/yesspider-hacker/log4j-payload-generator.git
+```
 
-[+] Enter callback_host [localhost:1389] : localhost:9001
-[+] Enter random_string [yesspider] : yesspider
 
-******************************************************************
-log4j-paylaod generator: A payload generator for Apache log4j RCE CVE-2021-44228
-Author:
-Yesspider
+## Running Tests
 
- __      __                                             __        __
-/  \    /  |                                           /  |      /  |
-$$  \  /$$/______    _______         _______   ______  $$/   ____$$ |  ______    ______
- $$  \/$$//      \  /       |       /       | /      \ /  | /    $$ | /      \  /      \
-  $$  $$//$$$$$$  |/$$$$$$$/       /$$$$$$$/ /$$$$$$  |$$ |/$$$$$$$ |/$$$$$$  |/$$$$$$  |
-   $$$$/ $$    $$ |$$      \       $$      \ $$ |  $$ |$$ |$$ |  $$ |$$    $$ |$$ |  $$/
-    $$ | $$$$$$$$/  $$$$$$  |       $$$$$$  |$$ |__$$ |$$ |$$ \__$$ |$$$$$$$$/ $$ |
-    $$ | $$       |/     $$/       /     $$/ $$    $$/ $$ |$$    $$ |$$       |$$ |
-    $$/   $$$$$$$/ $$$$$$$/        $$$$$$$/  $$$$$$$/  $$/  $$$$$$$/  $$$$$$$/ $$/
-                                             $$ |
-                                             $$ |
-                                            $$/
-******************************************************************
+To run tests, run the following command
+
+```bash
+ cd log4j-payload-generator/ 
+ cd python3 log4j_payload_generater.py
+```
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
