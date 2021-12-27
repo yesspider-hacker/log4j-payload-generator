@@ -17,7 +17,7 @@ To run tests, run the following command
 
 ```bash
  cd log4j-payload-generator/ 
- cd python3 log4j_payload_generater.py
+ python3 log4j_payload_generater.py
 ```
 
 
